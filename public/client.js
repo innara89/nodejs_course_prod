@@ -3,7 +3,7 @@
 let ws;
 function connectWebSocket() {
     // create
-    ws = new WebSocket('ws//localhost:3006');
+    ws = new WebSocket('wss//nodejs-course-prod-8yn4.onrender.com');
 
     //event handling - open,onnmessage,onclose
     ws.onopen = () => {
